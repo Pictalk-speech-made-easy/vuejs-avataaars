@@ -5,8 +5,8 @@
   "description": "Simple generator VueJs app for avataaars",
   "main": "./dist/avataaars.common.js",
   "scripts": {
-    "dev": "vue serve src/Avataaars.vue",
-    "build": "rm -rf dist && vue build --target lib --name avataaars src/entry.js"
+    "dev": "vite", 
+    "build": "vite build"
   },
   "homepage": "https://github.com/orgordin/vuejs-avataaars#README.md",
   "keywords": [
@@ -19,7 +19,9 @@
   },
   "author": "",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "vue": "^3.0.0"
+  },
   "files": [
     "dist/*",
     "src/*",
@@ -28,6 +30,7 @@
     "*.js"
   ],
   "devDependencies": {
-    "vue-template-compiler": "^2.6.10"
+    "@vitejs/plugin-vue": "^4.0.0",
+    "vite": "^4.0.0"
   }
 }
