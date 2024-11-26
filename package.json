@@ -1,5 +1,5 @@
 {
-  "name": "vuejs-avataaars",
+  "name": "vuejs3-avataaars",
   "private": false,
   "version": "4.0.1",
   "description": "Simple generator VueJs app for avataaars",
@@ -15,7 +15,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/orgordin/vuejs-avataaars.git"
+    "url": "git+https://github.com/Pictalk-speech-made-easy/vuejs-avataaars.git"
   },
   "author": "",
   "license": "MIT",
