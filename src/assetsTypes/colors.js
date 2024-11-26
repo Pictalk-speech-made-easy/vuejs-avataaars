@@ -38,3 +38,14 @@ export const skinColors = {
     DarkBrown: "#AE5D29",
     Black: "#614335"
 };
+
+export const eyeColors = {
+    Blue: '#5DADEC',
+    Brown: '#6B4E31',
+    Green: '#3B7A57',
+    Hazel: '#8E7618',
+    Gray: '#A9A9A9',
+    Amber: '#FFBF00',
+    Red: '#FF0000',
+    Purple: '#800080',
+};

@@ -33,7 +33,7 @@ const AngryNatural = `
       </g>
     </g>
 `;
-const Default = `
+const EyebrowDefault = `
   <g transform='translate(76.000000, 82.000000)'>
       <g id='Eyebrow/Outline/Default' opacity='0.599999964'>
         <g id='I-Browse' transform='translate(12.000000, 6.000000)'>
@@ -221,7 +221,7 @@ const UpDownNatural = `
 export const eyebrowTypes = {
   Angry: Angry,
   AngryNatural: AngryNatural,
-  Default: Default,
+  Default: EyebrowDefault,
   DefaultNatural: DefaultNatural,
   FlatNatural: FlatNatural,
   FrownNatural: FrownNatural,

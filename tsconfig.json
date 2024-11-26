@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "declaration": true,
+      "emitDeclarationOnly": true,
+      "outDir": "./dist",
+      "skipLibCheck": true,
+      "module": "ESNext",
+      "target": "ESNext",
+      "strict": true,
+      "esModuleInterop": true,
+      "allowJs": true, // Allow JavaScript files
+      "jsx": "preserve", // JSX support if needed
+    },
+    "include": ["src/**/*"],
+    "exclude": ["dist", "node_modules"]
+  }

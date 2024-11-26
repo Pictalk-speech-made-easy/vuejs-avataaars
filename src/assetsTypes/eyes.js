@@ -48,7 +48,7 @@ const Cry = `
       </g>
     </g>
 `;
-const Default = `
+const EyesDefault = `
   <g transform='translate(76.000000, 82.000000)'>
       <g
         class='CustomColor'
@@ -271,7 +271,7 @@ const WinkWacky = `
 export const eyeTypes = {
   Close: Close,
   Cry: Cry,
-  Default: Default,
+  Default: EyesDefault,
   Dizzy: Dizzy,
   EyeRoll: EyeRoll,
   Happy: Happy,

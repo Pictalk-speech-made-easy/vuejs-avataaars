@@ -1,11 +1,19 @@
 {
   "name": "vuejs3-avataaars",
   "private": false,
-  "version": "4.0.1",
+  "version": "4.0.2",
   "description": "Simple generator VueJs app for avataaars",
-  "main": "./dist/avataaars.common.js",
+  "main": "./dist/avataaars.umd.js",
+  "module": "./dist/avataaars.es.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/avataaars.es.js",
+      "require": "./dist/avataaars.umd.js"
+    }
+  },
   "scripts": {
-    "dev": "vite", 
+    "dev": "vite",
     "build": "vite build"
   },
   "homepage": "https://github.com/orgordin/vuejs-avataaars#README.md",
@@ -31,6 +39,8 @@
   ],
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.0.0",
+    "@vue/compiler-sfc": "^3.5.13",
+    "typescript": "^5.7.2",
     "vite": "^4.0.0"
   }
 }

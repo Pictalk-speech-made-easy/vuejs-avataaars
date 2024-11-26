@@ -47,7 +47,7 @@ const Concerned = `
       </g>
     </g>
 `;
-const Default = `
+const MouthDefault = `
   <g transform='translate(76.000000, 82.000000)'>
       <g
         id='Mouth/Default'
@@ -396,7 +396,7 @@ const Vomit = `
 
 export const mouthTypes = {
   Concerned: Concerned,
-  Default: Default,
+  Default: MouthDefault,
   Disbelief: Disbelief,
   Eating: Eating,
   Grimace: Grimace,

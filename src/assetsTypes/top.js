@@ -2083,10 +2083,7 @@ const WinterHat4 = `
 
 export const topTypes = {
   NoHair: NoHair,
-  Eyepatch: Eyepatch,
   Hat: Hat,
-  Hijab: Hijab,
-  Turban: Turban,
   WinterHat1: WinterHat1,
   WinterHat2: WinterHat2,
   WinterHat3: WinterHat3,
