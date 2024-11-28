@@ -94,7 +94,7 @@
             <g v-html="accessoriesSvg"></g>
 
             <!-- Eyes -->
-            <g style="fill: beige" v-html="eyesSvg"></g>
+            <g style="fill: black" v-html="eyesSvg"></g>
 
             <!-- Eyebrows -->
             <g v-html="eyebrowsSvg"></g>
@@ -122,7 +122,6 @@
     </g>
   </svg>
 </template>
-
 <script>
 import { defineComponent } from 'vue';
 
@@ -133,7 +132,6 @@ import {
   hatAndShirtColors,
   hairColors,
   skinColors,
-  eyeColors
 } from './assetsTypes/colors';
 import { eyebrowTypes } from './assetsTypes/eyebrows';
 import { eyeTypes } from './assetsTypes/eyes';
@@ -260,11 +258,6 @@ export default defineComponent({
     eyesSvg() {
       const eyeType =
         this.eyeType || this.getRandomChoice(Object.keys(this.eyeTypes));
-        console.log(eyeType);
-        console.log(this.eyeType);
-        console.log(this.eyeTypes);
-        console.log(this.getRandomChoice(Object.keys(this.eyeTypes)));
-        console.log(this.eyeTypes[eyeType]);
         const svgContent = this.eyeTypes[eyeType] || '';
       return this.eyeTypes[eyeType] || '';
     },
